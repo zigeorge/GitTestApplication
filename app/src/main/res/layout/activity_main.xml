@@ -10,7 +10,16 @@
     tools:context="com.example.geo.gittestapplication.MainActivity">
 
     <TextView
+        android:id="@+id/tvText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/tvGeorge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvText"
+        android:layout_marginTop="10dp"
+        android:text="I am George"/>
 </RelativeLayout>
